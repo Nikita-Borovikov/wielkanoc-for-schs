@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://i.iplsc.com/rosliny-na-wielkanoc/000ATGFRGUVVQ113-C122-F4.jpg');
+    backdrop-filter: blur(10px);
+}
+
+h1{
+        text-align: center;
+        margin: 20px 0;
+        font-family: 'Alkatra', cursive;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+}
+
+.lamb{
+    background-image: url(./img/lamb.png);
+    height: 50vh;
+    width: 50vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wishes{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-image: url(./img/osterei-easter-egg-symbolbild-291129.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px;
+    height: 80vh;
+    width: 40vw;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    width: 40vw;
+    border: 1px solid red;
+    border-radius: 30px;
+    backdrop-filter: blur(20px);
+    padding: 5px;
+}
+
+.introduction span{
+    display: block;
+    font-size: 30px;
+    font-family: 'Alkatra', cursive;
+}
+
+.introduction .nadawca{
+    align-self: flex-start;
+}
+
+
